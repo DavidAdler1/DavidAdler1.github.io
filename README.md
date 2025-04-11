@@ -1,5 +1,4 @@
 # Portfolio
-Project Portfolio
 
 ### The Mission
 My project started with a simple idea: online shopping should be easy, safe, and fair. I noticed that many current e-commerce sites are either too complicated, not secure enough, or don’t always put users first. So, I set out to build an online store that anyone can use without hassle, where security and ethical practices come first.​
