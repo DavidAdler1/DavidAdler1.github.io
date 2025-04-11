@@ -1,28 +1,79 @@
 # UML Diagrams
 
-This page contains all the UML diagrams for the project. Below you will find a variety of diagrams that represent the system's architecture, controllers, and services.
+This page contains all the UML diagrams for the project, organized by type.
 
-## Class Diagrams
+---
 
-![OS UML](Images/UML Diagrams/OSUML.png)
-![PC UML](Images/UML Diagrams/PCUML.png)
-![PDAO UML](Images/UML Diagrams/PDAOUML.png)
-![PM UML](Images/UML Diagrams/PMUML.png)
-![ProductsController UML](Images/UML Diagrams/ProductsControllerUML.png)
-![RegistrationController UML](Images/UML Diagrams/RegistrationControllerUML.png)
-![RegistrationModel UML](Images/UML Diagrams/RegistrationModelUML.png)
-![SDAO UML](Images/UML Diagrams/SDAOUML.png)
-![SS UML](Images/UML Diagrams/SSUML.png)
-![U UML](Images/UML Diagrams/UMUML.png)
-![AC UML](Images/UML Diagrams/ACUML.png)
-![CC UML](Images/UML Diagrams/CCUML.png)
-![CI UML](Images/UML Diagrams/CIMUML.png)
-![CS UML](Images/UML Diagrams/CSUML.png)
-![IProductDataService UML](Images/UML Diagrams/IProductDataServiceUML.png)
-![LoginController UML](Images/UML Diagrams/LoginControllerUML.png)
-![OC UML](Images/UML Diagrams/OCUML.png)
-![OM UML](Images/UML Diagrams/OMUML.png)
+## Controller Diagrams
 
+![LoginController UML](Images/UML%20Diagrams/LoginControllerUML.png)  
+*LoginController*  
 
-## UI Diagrams
+![ProductsController UML](Images/UML%20Diagrams/ProductsControllerUML.png)  
+*ProductsController*  
 
+![RegistrationController UML](Images/UML%20Diagrams/RegistrationControllerUML.png)  
+*RegistrationController*  
+
+![CartController UML](Images/UML%20Diagrams/CCUML.png)  
+*CartController* 
+
+![AdminController UML](Images/UML%20Diagrams/ACUML.png)  
+*AdminController* 
+
+![ProfileController UML](Images/UML%20Diagrams/PCUML.png)  
+*ProfileController* 
+
+---
+
+## Model Diagrams
+
+![RegistrationModel UML](Images/UML%20Diagrams/RegistrationModelUML.png)  
+*RegistrationModel*  
+
+![CartItemModel UML](Images/UML%20Diagrams/CIMUML.png)  
+*CartItemModel*  
+
+![UserModel UML](Images/UML%20Diagrams/UMUML.png)  
+*UserModel*  
+
+![ProductModel UML](Images/UML%20Diagrams/PMUML.png)  
+*ProductModel*  
+
+![OrderModel UML](Images/UML%20Diagrams/OMUML.png)  
+*OrderModel*  
+
+---
+
+## Service & DAO Diagrams
+
+![OrderService UML](Images/UML%20Diagrams/OSUML.png)  
+*OrderService*  
+
+![OrderDAO UML](Images/UML%20Diagrams/OCUML.png)  
+*OrderDAO*  
+
+![ProductDataService UML](Images/UML%20Diagrams/IProductDataServiceUML.png)  
+*IProductDataService*  
+
+![ProductDAO UML](Images/UML%20Diagrams/PDAOUML.png)  
+*ProductDAO*  
+
+![SessionService UML](Images/UML%20Diagrams/SSUML.png)  
+*SessionService*  
+
+![SecurityService UML](Images/UML%20Diagrams/SDAOUML.png)  
+*SecurityService* 
+
+![CartService UML](Images/UML%20Diagrams/CSUML.png)  
+*CartService*   
+
+---
+
+## View Diagrams
+
+![User View Diagram](Images/View%20Diagrams/UserDiagram.png)  
+*User View*  
+
+![Admin View Diagram](Images/View%20Diagrams/AdminViewDiagram.png)  
+*Admin View*  
