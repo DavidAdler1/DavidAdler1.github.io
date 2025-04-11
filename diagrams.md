@@ -3,8 +3,8 @@
 This page contains all the UML diagrams for the project, organized by type.
 
 ---
-
-## Controller Diagrams
+<details>
+<summary>Controller Diagrams</summary>
 
 ![LoginController UML](Images/UML%20Diagrams/LoginControllerUML.png)  
 *LoginController*  
@@ -16,16 +16,20 @@ This page contains all the UML diagrams for the project, organized by type.
 *RegistrationController*  
 
 ![CartController UML](Images/UML%20Diagrams/CCUML.png)  
-*CartController* 
+*CartController*  
 
 ![AdminController UML](Images/UML%20Diagrams/ACUML.png)  
-*AdminController* 
+*AdminController*  
 
 ![ProfileController UML](Images/UML%20Diagrams/PCUML.png)  
-*ProfileController* 
+*ProfileController*  
+
+</details>
 
 ---
 
+<details>
+<summary>Model Diagrams</summary>
 ## Model Diagrams
 
 ![RegistrationModel UML](Images/UML%20Diagrams/RegistrationModelUML.png)  
@@ -42,10 +46,12 @@ This page contains all the UML diagrams for the project, organized by type.
 
 ![OrderModel UML](Images/UML%20Diagrams/OMUML.png)  
 *OrderModel*  
+</details>
 
 ---
 
-## Service & DAO Diagrams
+<details>
+<summary>Service & DAO Diagrams</summary>
 
 ![OrderService UML](Images/UML%20Diagrams/OSUML.png)  
 *OrderService*  
@@ -67,10 +73,12 @@ This page contains all the UML diagrams for the project, organized by type.
 
 ![CartService UML](Images/UML%20Diagrams/CSUML.png)  
 *CartService*   
+</details>
 
 ---
 
-## View Diagrams
+<details>
+<summary>User Experience Diagrams</summary>
 
 ![User View Diagram](Images/View%20Diagrams/UserDiagram.png)  
 *User View*  
