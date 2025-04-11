@@ -149,7 +149,7 @@ Followed the MVC (Model-View-Controller) design pattern to separate concerns:
 
   
 ### Diagrams
-For a detailed view of all the UML diagrams, please visit the [Diagrams Page](diagrams.md).
+For a detailed view of all the diagrams, please visit the [Diagrams Page](diagrams.md).
 
 
 ### Risks and Challenges
