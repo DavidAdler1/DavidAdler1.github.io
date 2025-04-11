@@ -146,7 +146,11 @@ Followed the MVC (Model-View-Controller) design pattern to separate concerns:
 - Used SQL Server for database storage and interaction via ADO.NET with SqlConnection.
 
 - Applied Form Validation and input sanitization to ensure secure and clean data handling.
-Include a variety of design diagrams, class diagrams, etc., to support the technical aspects of your project.
+
+  
+### Diagrams
+For a detailed view of all the UML diagrams, please visit the [Diagrams Page](diagrams.md).
+
 
 ### Risks and Challenges
 - Challenge: Integrating the frontend with the backend and ensuring smooth data flow.
