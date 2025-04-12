@@ -91,7 +91,7 @@ This page contains all the UML diagrams for the project, organized by type.
 <details>
 <summary>Architecture Diagram</summary>
 
-![Architecture Diagram](Images/View%20Diagrams/ArchitectureDiagram.png)  
+![Architecture Diagram](Images/Architecture%20Diagram/ArchitectureDiagram.png)  
 *Architecture Diagram* 
 
 ---
@@ -99,5 +99,5 @@ This page contains all the UML diagrams for the project, organized by type.
 <details>
 <summary>ER Diagram</summary>
 
-![ER Diagram](Images/View%20Diagrams/ERDiagram.png)  
+![ER Diagram](Images/ER%20Diagram/ERDiagram.png)  
 *ER Diagram* 
