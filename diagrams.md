@@ -86,6 +86,8 @@ This page contains all the UML diagrams for the project, organized by type.
 ![Admin View Diagram](Images/View%20Diagrams/AdminViewDiagram.png)  
 *Admin View* 
 
+</details>
+
 ---
 
 <details>
@@ -94,6 +96,9 @@ This page contains all the UML diagrams for the project, organized by type.
 ![Architecture Diagram](Images/Architecture%20Diagram/ArchitectureDiagram.png)  
 *Architecture Diagram* 
 
+</details>
+
+
 ---
 
 <details>
@@ -101,3 +106,5 @@ This page contains all the UML diagrams for the project, organized by type.
 
 ![ER Diagram](Images/ER%20Diagram/ERDiagram.png)  
 *ER Diagram* 
+
+</details>
