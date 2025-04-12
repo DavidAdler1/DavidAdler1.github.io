@@ -84,4 +84,20 @@ This page contains all the UML diagrams for the project, organized by type.
 *User View*  
 
 ![Admin View Diagram](Images/View%20Diagrams/AdminViewDiagram.png)  
-*Admin View*  
+*Admin View* 
+
+---
+
+<details>
+<summary>Architecture Diagram</summary>
+
+![Architecture Diagram](Images/View%20Diagrams/ArchitectureDiagram.png)  
+*Architecture Diagram* 
+
+---
+
+<details>
+<summary>ER Diagram</summary>
+
+![ER Diagram](Images/View%20Diagrams/ERDiagram.png)  
+*ER Diagram* 
