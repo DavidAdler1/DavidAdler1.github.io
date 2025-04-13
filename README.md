@@ -165,7 +165,13 @@ For a detailed view of all the diagrams, please visit the [Diagrams Page](diagra
 - Challenge: Managing time constraints while addressing issues that persisted as development continued.
 - Solution: Prioritized simpler features first and debugged issues as they came up to avoid delaying progress.
 
-Resources Used: ASP.NET MVC documentation, Stack Overflow, and  GCU Course C#3, Jira, GitHub, Postman.
+Resources Used: 
+- ASP.NET MVC documentation, Stack Overflow, and  GCU Course C#3, Jira, GitHub, Postman.
+- https://stackoverflow.com/questions/39860045/how-do-i-use-cookies-to-store-shopping-cart-content
+- https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements
+- https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
+-  https://stackoverflow.com/questions/72875803/asp-net-core-identity-check-isadmin
+  
 
 
 ### Outstanding Issues
