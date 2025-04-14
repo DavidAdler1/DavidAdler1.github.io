@@ -1,4 +1,5 @@
-# Portfolio
+# E-Commerce Web App - Capstone Project Portfolio
+
 
 ### High-level Functional Requirements
 
