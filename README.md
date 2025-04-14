@@ -1,4 +1,4 @@
-# E-Commerce Web App - Capstone Project Portfolio
+# Davids Grand Shop - Capstone Project Portfolio
 
 
 ### High-level Functional Requirements
