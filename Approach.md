@@ -1,4 +1,4 @@
-#Project Approach
+# Project Approach
 
 This document outlines the approach taken to plan, design, and implement the Capstone Project. It includes design philosophy, architecture decisions, development methodology, and lessons learned.
 
@@ -8,9 +8,9 @@ This document outlines the approach taken to plan, design, and implement the Cap
 
 The project followed the **Model-View-Controller (MVC)** architecture:
 
-- **Models** represent the data.
-- **Views** present the data to users using Razor pages.
-- **Controllers** manage logic and user interaction.
+- Models represent the data.
+- Views present the data to users using Razor pages.
+- Controllers manage logic and user interaction.
 
 ## Service Classes
 
@@ -29,13 +29,13 @@ To separate business logic from controllers, custom service classes were created
 
 ### Backend
 
-- Built using **ASP.NET MVC with C#**.
-- Connected to **SQL Server** using **ADO.NET** and `SqlConnection`.
-- Protected all data access with **parameterized queries** to prevent SQL injection.
+- Built using ASP.NET MVC with C#.
+- Connected to SQL Server using ADO.NET and SqlConnection.
+- Protected all data access with parameterized queries to prevent SQL injection.
 
 ### Frontend
 
-- Built with **HTML, CSS, and Razor**.
+- Built with HTML, CSS, and Razor.
 - Implemented clean and responsive views.
 - Used TempData to handle success and error messages between requests.
 - Used cookies to persist cart data between sessions.
