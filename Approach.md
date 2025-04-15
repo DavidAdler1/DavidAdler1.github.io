@@ -28,25 +28,34 @@ To separate business logic from controllers, custom service classes were created
 ## Implementation Strategy
 
 ### Backend
-
 - Built using ASP.NET MVC with C#.
-- Connected to SQL Server using ADO.NET and SqlConnection.
-- Protected all data access with parameterized queries to prevent SQL injection.
+
+- Connected to SQL Server using ADO.NET and SqlConnection for direct database communication.
+
+- Data access is secured through parameterized queries to prevent SQL injection vulnerabilities.
+
+For a detailed list of technologies used, refer to the Technologies Chosen section in the README.
 
 ### Frontend
+- Developed using HTML, CSS, and Razor to create dynamic, responsive views.
 
-- Built with HTML, CSS, and Razor.
-- Implemented clean and responsive views.
-- Used TempData to handle success and error messages between requests.
-- Used cookies to persist cart data between sessions.
+- Utilized TempData to manage success and error messages between requests.
+
+- Implemented cookie-based persistence for cart data, ensuring the cart remains intact between sessions.
+
+For more information on frontend technologies, check the Technologies Chosen section in the README.
 
 ---
 
 ## Authentication & Session Management
 
-- Utilized IHttpContextAccessor to manage and access session data across the application.
-- Tracked user login status, username, and admin privileges using session variables.
-- Implemented secure cart persistence by storing cart data in cookies with HttpOnly, Secure, and SameSite attributes
+- Managed session data using IHttpContextAccessor, ensuring consistent access to session information across the application.
+
+- Tracked user login status, username, and admin privileges using session variables for secure and efficient session management.
+
+- Ensured secure cart persistence by storing cart data in cookies with HttpOnly, Secure, and SameSite attributes to prevent tampering and mitigate cross-site attacks.
+
+For more details on security practices and session handling, refer to the Security section in the README.
 
 ---
 
@@ -65,9 +74,6 @@ Development
 
 Testing
 - Manual testing and debugging were performed regularly during sprints. Test cases were used to validate user registration, login, cart operations, and admin privileges. Tools like Postman were also used to simulate API interactions.
-
-Deployment
-- The application was deployed to the cloud using AWS, making it accessible for demonstration and testing by others.
 
 ---
 
