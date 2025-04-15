@@ -74,16 +74,3 @@ Development
 
 Testing
 - Manual testing and debugging were performed regularly during sprints. Test cases were used to validate user registration, login, cart operations, and admin privileges. Tools like Postman were also used to simulate API interactions.
-
----
-
-## Testing Tools
-
-Jira
-- Used to track bugs and issues throughout the development process. Each sprint included a dedicated testing phase to verify functionality against user stories and test cases.
-
-GitHub
-- Version control was managed with GitHub, allowing testing of changes through pull requests and branches.
-
-Postman
-- Used to manually test backend logic and API responses. Helped ensure requests and responses were functioning correctly.
