@@ -1,4 +1,4 @@
-# Davids Grand Shop - Capstone Project Portfolio
+# David's Grand Shop - Capstone Project Portfolio
 
 
 ### High-level Functional Requirements
@@ -7,7 +7,7 @@ User Registration & Login
 
 - Users can create an account and log in securely.
 
-- Session-based authentication ensures only logged-in users can access the website
+- Session-based authentication ensures that only logged-in users can access the website
 
 Product Browsing & Search
 
@@ -145,10 +145,10 @@ For a detailed view of all the diagrams, please visit the [Diagrams Page](diagra
 
 
 ### Risks and Challenges
-- Challenge: Integrating the frontend with the backend and ensuring smooth data flow.
+- Challenge: Integrating the front and backend and ensuring smooth data flow.
 - Solution: Used the MVC pattern to separate concerns and tested functionality frequently.
 
-- Challenge: Managing user sessions and cart persistence, ensuring the cart remains intact even after page refreshes.
+- Challenge: Manage user sessions and cart persistence, ensuring the cart remains intact even after the page refreshes.
 - Solution: Implemented cookie-based cart management using the CartService and session handling for user authentication.
 
 - Challenge: Managing time constraints while interacting with issues that persist as development continues.
@@ -163,6 +163,7 @@ Resources Used:
 - https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements
 - https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
 -  https://stackoverflow.com/questions/72875803/asp-net-core-identity-check-isadmin
+-  https://learn.microsoft.com/en-us/azure/app-service/app-service-web-tutorial-dotnet-sqldatabase?utm_source=chatgpt.com
   
 
 
