@@ -1,5 +1,16 @@
 # David's Grand Shop - Capstone Project Portfolio
 
+## The Mission
+My project started with a simple idea: online shopping should be easy, safe, and fair. I noticed that many current e-commerce sites are either too complicated, not secure enough, or don’t always put users first. So, I set out to build an online store that anyone can use without hassle, where security and ethical practices come first.​
+
+I wanted to create a website where signing up, logging in, browsing products, managing your cart, and checking out is straightforward and enjoyable. At the same time, I made sure to protect user data with secure coding practices and careful handling of information.​
+
+My design is simple and organized. By separating the data, the look of the site, and user interactions, I made the website easy to maintain and improve over time. This approach not only meets my current needs but also sets me and my project up for future growth.​
+
+In short, my mission is to build a reliable and ethically driven online store that makes shopping easy and secure, while staying true to the values of fairness and responsibility. 
+
+---
+
 
 ### High-level Functional Requirements
 
@@ -35,12 +46,14 @@ Admin Controls
 
 - Admins can view, edit, or delete the list of all registered users.
 
-### High Level Non-Functional Requirements
+---
+
+### High-Level Non-Functional Requirements
 Security
 
 - Uses secure sessions for authentication.
 
-- Admin access protected by isAdmin flag.
+- Admin access is protected by the isAdmin flag.
 
 - Data validation and SQL injection protection via parameterized queries.
 
@@ -72,6 +85,8 @@ Reliability
 
 - ILogger helps detect and resolve issues fast.
 
+---
+
 ### Technologies Chosen
 
 - ASP.NET MVC (C#) – For its clear structure and separation of concerns using the Model-View-Controller pattern. It made my app more organized and maintainable.
@@ -86,6 +101,8 @@ Reliability
 
 - ILogger – For tracking user activity, especially logins, and handling any errors for debugging.
 
+---
+
 ### Industry Best Practices
 - Separation of Concerns – I followed the MVC architecture to separate the user interface, business logic, and data access, making the code easier to manage and scale.
 
@@ -98,9 +115,13 @@ Reliability
 - Code Reusability and Modularity – Reusable methods and structured models made it easier to maintain and extend the project later.
 
 - Secure Cookie Handling – I used HttpOnly, Secure, and SameSite cookie options when saving cart data to prevent tampering and cross-site attacks.
+
+---
   
 ### Cloud Deployment
 - Yes, my project is deployed to the cloud using AWS.
+
+---
   
 ### How were DevOps principles applied?
 This Project Followed the full Software Development Life Cycle.​
@@ -110,6 +131,8 @@ This Project Followed the full Software Development Life Cycle.​
 - GitHub was used for code updates and version control.​
 
 - Postman was used for API Testing and development.
+
+---
   
 ### New Technologies Learned
 - Learned about MVC architecture to better organize the project.
@@ -121,6 +144,8 @@ This Project Followed the full Software Development Life Cycle.​
 - Gained experience with GitHub for version control and collaboration.
 
 - Learned session handling to manage user authentication and state.
+
+---
 
 ### Technical Approach
 Followed the MVC (Model-View-Controller) design pattern to separate concerns:
@@ -139,9 +164,13 @@ Followed the MVC (Model-View-Controller) design pattern to separate concerns:
 
 - Applied Form Validation and input sanitization to ensure secure and clean data handling.
 
+---
+
   
 ### Diagrams
 For a detailed view of all the diagrams, please visit the [Diagrams Page](diagrams.md).
+
+---
 
 
 ### Risks and Challenges
@@ -156,8 +185,10 @@ For a detailed view of all the diagrams, please visit the [Diagrams Page](diagra
   
 - Challenge: Managing time constraints while addressing issues that persisted as development continued.
 - Solution: Prioritized simpler features first and debugged issues as they came up to avoid delaying progress.
+  
+---
 
-Resources Used: 
+### Resources Used: 
 - ASP.NET MVC documentation, Stack Overflow, and  GCU Course C#3, Jira, GitHub, Postman.
 - https://stackoverflow.com/questions/39860045/how-do-i-use-cookies-to-store-shopping-cart-content
 - https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements
