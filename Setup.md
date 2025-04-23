@@ -31,11 +31,11 @@ json"ConnectionStrings": {
 --- 
 Database Setup
 <details>
+<summary>Click to view database setup instructions</summary>
 
-1. Create a new database named Capstone in SQL Server
-   
-2. Execute the following SQL scripts to create the required tables:
-
+Create a new database named Capstone in SQL Server
+Execute the following SQL scripts to create the required tables:
+```
 SQL
 CREATE TABLE Orders (
     Id INT PRIMARY KEY IDENTITY,
@@ -74,16 +74,18 @@ CREATE TABLE [dbo].[RegistrationMain] (
     PRIMARY KEY CLUSTERED ([Id] ASC),
     UNIQUE NONCLUSTERED ([Username] ASC)
 );
+```
+```
+Add sample users for testing:
 
-3. Add sample users for testing:
-   -- Insert admin user
+sql-- Insert admin user
 INSERT INTO [dbo].[RegistrationMain] ([FirstName], [LastName], [Sex], [Age], [State], [Email], [Username], [PasswordHash], [isAdmin])
 VALUES ('Admin', 'User', 'Male', 25, 'Arizona', 'davidadler28@gmail.com', 'Jack', 'Skellington', 1);
 
 -- Insert regular user
 INSERT INTO [dbo].[RegistrationMain] ([FirstName], [LastName], [Sex], [Age], [State], [Email], [Username], [PasswordHash], [isAdmin])
 VALUES ('Regular', 'User', 'Female', 25, 'California', 'Jackie@AoL.com', 'Jackie', 'CoolMom', 0);
-
+```
 </details>
 
 ---
