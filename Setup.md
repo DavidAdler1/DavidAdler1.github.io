@@ -10,6 +10,22 @@ Visual Studio 2022
 SQL Server (LocalDB or Express)
 .NET 6.0 SDK
 
+---
+
+## Installation Steps
+
+### Clone the repository:
+
+- git clone https://github.com/DavidAdler1/DavidsGrandShop.git
+
+### Open the solution in Visual Studio 2022
+- Update the connection string in appsettings.json to match your SQL Server:
+
+json"ConnectionStrings": {
+  "DefaultConnection": "Server=(localdb)\\MSSQLLocalDB;Database=Capstone;Trusted_Connection=True;MultipleActiveResultSets=true"
+}
+
+--- 
 Database Setup
 <details>
 
@@ -67,21 +83,7 @@ VALUES ('Regular', 'User', 'Female', 25, 'California', 'Jackie@AoL.com', 'Jackie
 
 </details>
 
-
 ---
-
-## Installation Steps
-
-### Clone the repository:
-
-- git clone https://github.com/DavidAdler1/DavidsGrandShop.git
-
-### Open the solution in Visual Studio 2022
-- Update the connection string in appsettings.json to match your SQL Server:
-
-json"ConnectionStrings": {
-  "DefaultConnection": "Server=(localdb)\\MSSQLLocalDB;Database=Capstone;Trusted_Connection=True;MultipleActiveResultSets=true"
-}
 
 ### Build the solution (press Ctrl+Shift+B)
 ### Run the application (press F5)
