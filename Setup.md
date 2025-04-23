@@ -1,22 +1,25 @@
 # Setup Guide
 
-This guide explains how to set up and run David's Grand Shop locally.
+This guide explains how to set up and run **David's Grand Shop** locally.
 
 ---
 
-Prerequisites
+## Prerequisites
 
-Visual Studio 2022
-SQL Server (LocalDB or Express)
-.NET 6.0 SDK
+Make sure the following are installed on your machine:
+
+- Visual Studio 2022  
+- SQL Server (LocalDB or Express)  
+- .NET 6.0 SDK  
 
 ---
 
 ## Installation Steps
 
-### Clone the repository:
+### 1. Clone the repository
 
-- git clone https://github.com/DavidAdler1/DavidsGrandShop.git
+git clone https://github.com/DavidAdler1/DavidsGrandShop.git
+
 
 ### Open the solution in Visual Studio 2022
 - Update the connection string in appsettings.json to match your SQL Server:
