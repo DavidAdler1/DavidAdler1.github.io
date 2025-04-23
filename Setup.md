@@ -18,18 +18,20 @@ Make sure the following are installed on your machine:
 
 ### 1. Clone the repository
 
-git clone https://github.com/DavidAdler1/DavidsGrandShop.git
+- git clone https://github.com/DavidAdler1/DavidsGrandShop.git
 
 
 ### Open the solution in Visual Studio 2022
 - Update the connection string in appsettings.json to match your SQL Server:
 
-json"ConnectionStrings": {
+```
+--- json"ConnectionStrings": {
   "DefaultConnection": "Server=(localdb)\\MSSQLLocalDB;Database=Capstone;Trusted_Connection=True;MultipleActiveResultSets=true"
 }
+```
 
 --- 
-Database Setup
+### Database Setup
 <details>
 <summary>Click to view database setup instructions</summary>
 
@@ -79,10 +81,12 @@ CREATE TABLE [dbo].[RegistrationMain] (
 Add sample users for testing:
 
 sql-- Insert admin user
+
 INSERT INTO [dbo].[RegistrationMain] ([FirstName], [LastName], [Sex], [Age], [State], [Email], [Username], [PasswordHash], [isAdmin])
 VALUES ('Admin', 'User', 'Male', 25, 'Arizona', 'davidadler28@gmail.com', 'Jack', 'Skellington', 1);
 
 -- Insert regular user
+
 INSERT INTO [dbo].[RegistrationMain] ([FirstName], [LastName], [Sex], [Age], [State], [Email], [Username], [PasswordHash], [isAdmin])
 VALUES ('Regular', 'User', 'Female', 25, 'California', 'Jackie@AoL.com', 'Jackie', 'CoolMom', 0);
 ```
@@ -95,9 +99,9 @@ VALUES ('Regular', 'User', 'Female', 25, 'California', 'Jackie@AoL.com', 'Jackie
 
 ### Test Accounts
 
-Admin User: username = Jack, password = Skellington
-Regular User: username = Jackie, password = CoolMom
+- Admin User: username = Jack, password = Skellington
+- Regular User: username = Jackie, password = CoolMom
 
 ### Live Access
-You can also access the deployed version of this application at:
+- You can also access the deployed version of this application at:
 [https://github.com/DavidAdler1/DavidsGrandShop](https://capstoneproject20250422140909-fxf3hfdrcrg5eshr.canadacentral-01.azurewebsites.net/)
