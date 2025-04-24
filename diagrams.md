@@ -87,8 +87,39 @@ This page contains all the project diagrams, organized by type. These diagrams i
 *Admin View - Illustrates admin-specific interface for product and user management* 
 
 
-
 ---
+
+## Flow Diagram
+
+![Order History Flow](Images/Flow%20Diagrams/OrderHistory.png)  
+*Order History Flow - Describes the steps involved in retrieving and displaying past orders for a user*
+
+![Products Flow](Images/Flow%20Diagrams/Products.png)  
+*Products Flow - Shows the process of loading, filtering, and displaying products to users*
+
+![Products Page Flow](Images/Flow%20Diagrams/ProductsPage.png)  
+*Products Page Flow - Illustrates UI interactions and logic behind the products listing page*
+
+![Registration Flow](Images/Flow%20Diagrams/Registration.png)  
+*Registration Flow - Depicts the user registration sequence with validation and database interaction*
+
+![User Profile Flow](Images/Flow%20Diagrams/UserProfile.png)  
+*User Profile Flow - Displays the process of viewing and editing user profile data*
+
+![Admin Product Flow](Images/Flow%20Diagrams/AdminProduct.png)  
+*Admin Product Flow - Describes the admin's product management steps, including edit and delete*
+
+![Admin User Flow](Images/Flow%20Diagrams/AdminUser.png)  
+*Admin User Flow - Outlines user management functionalities available to admins*
+
+![Cart Flow](Images/Flow%20Diagrams/Cart.png)  
+*Cart Flow - Shows how cart items are added, stored, and retrieved during a session*
+
+![Cart Management Flow](Images/Flow%20Diagrams/CartManagement.png)  
+*Cart Management Flow - Details user interactions for modifying and clearing the cart*
+
+![Checkout Flow](Images/Flow%20Diagrams/Checkout.png)  
+*Checkout Flow - Highlights the process of validating, confirming, and storing an order*
 
 
 ## Architecture Diagram
