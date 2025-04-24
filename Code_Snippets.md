@@ -4,7 +4,7 @@ This document highlights important code patterns and implementation techniques u
 
 ---
 
-Controller Layer: AdminController
+## Controller Layer: AdminController
 
 
 
@@ -48,7 +48,7 @@ The AdminController is designed with security in mind, checking user roles for e
 
 ---
 
-Service Layer: CartService
+## Service Layer: CartService
 
 
 
@@ -115,7 +115,7 @@ CartService is built without storing user state on the server. It securely uses 
 
 ---
 
-DAO Usage: ProductDAO
+## DAO Usage: ProductDAO
 
 
 
@@ -206,7 +206,7 @@ ProductDAO follows the Repository pattern to organize data access. It uses param
 
 ---
 
-Transaction Handling: OrderService
+## Transaction Handling: OrderService
 
 
 
@@ -280,7 +280,7 @@ OrderService uses reliable transactions that follow ACID principles to keep data
 
 ---
 
-Security Implementation: SecurityDAO
+## Security Implementation: SecurityDAO
  
 
 
@@ -376,7 +376,7 @@ SecurityDAO handles authentication securely by using parameterized queries to bl
 
 ---
 
-Model Validation: Data Annotations
+## Model Validation: Data Annotations
 
 
 
