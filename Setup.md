@@ -18,7 +18,9 @@ Make sure the following are installed on your machine:
 
 ### 1. Clone the repository
 
-- git clone https://github.com/DavidAdler1/DavidsGrandShop.git
+- Clone the Local Development and Testing Branch
+
+- git clone [https://github.com/DavidAdler1/DavidsGrandShop.git](https://github.com/DavidAdler1/DavidsGrandShop.git)
 
 
 ### Open the solution in Visual Studio 2022
