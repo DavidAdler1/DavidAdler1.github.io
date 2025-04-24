@@ -11,6 +11,21 @@ In short, my mission is to build a reliable and ethically driven online store th
 
 ---
 
+## Project Navigation
+
+[Application Demo](Demo.md)
+
+[Project Approach](Approach.md)
+
+[Setup & Installation Guide](Setup.md)
+
+[Key Code Snippets & Implementation](Code_Snippets.md)
+
+[Project Diagrams & Architecture](diagrams.md)
+
+
+---
+
 
 ### High-level Functional Requirements
 
