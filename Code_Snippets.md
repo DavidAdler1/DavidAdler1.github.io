@@ -6,7 +6,7 @@ This document highlights important code patterns and implementation techniques u
 
 Controller Layer: AdminController
 
-<details>
+
 
      public class AdminController : Controller
     {
@@ -44,13 +44,13 @@ Controller Layer: AdminController
     
 The AdminController is designed with security in mind, checking user roles for each action. It uses dependency injection to keep components loosely connected and delegates data tasks to the right services.
 
-</details>
+
 
 ---
 
 Service Layer: CartService
 
-<details>
+
 
     public class CartService
     {
@@ -111,13 +111,13 @@ Service Layer: CartService
     
 CartService is built without storing user state on the server. It securely uses cookies (with HttpOnly, Secure, and SameSite flags) to keep data safe, and offers a simple interface that hides how the data is stored.
   
-</details>
+
 
 ---
 
 DAO Usage: ProductDAO
 
-<details>
+
 
     public class ProductDAO : IProductDataService
     {
@@ -202,13 +202,13 @@ DAO Usage: ProductDAO
 
 ProductDAO follows the Repository pattern to organize data access. It uses parameterized queries to prevent SQL injection, handles resources safely with using statements, and includes error handling to keep the app stable
 
-</details>
+
 
 ---
 
 Transaction Handling: OrderService
 
-<details>
+
 
     public class OrderService
     {
@@ -276,13 +276,13 @@ Transaction Handling: OrderService
     
 OrderService uses reliable transactions that follow ACID principles to keep data consistent. If something goes wrong during order creation or inventory updates, it rolls back the changes to prevent errors and maintain stability.
 
-</details>
+
 
 ---
 
 Security Implementation: SecurityDAO
  
-<details>
+
 
     public class SecurityDAO
     {
@@ -373,13 +373,12 @@ Security Implementation: SecurityDAO
     
 SecurityDAO handles authentication securely by using parameterized queries to block SQL injection. It also checks for null values to prevent database errors and validates input to keep data accurate and safe.
 
-</details>
 
 ---
 
 Model Validation: Data Annotations
 
-<details>
+
 
     public class RegistrationModel
     
@@ -452,9 +451,9 @@ Model Validation: Data Annotations
     public ProductModel() { }
     }
 
-ProductModel uses data annotations to enforce validation rules and customize how data is shown. It supports nullable reference types for better safety and uses constructors to properly set up objects and support immutability.
+ProductModel uses data annotations to enforce validation rules and customize how data is shown. It supports nullable reference types for better safety and uses constructors to set up objects and support immutability properly.
 
-</details>
+
 
 ## Project Navigation
 
