@@ -1,6 +1,6 @@
-# UML Diagrams
+# Diagrams
 
-This page contains all the UML diagrams for the project, organized by type. These diagrams illustrate the architecture, relationships, and workflows within David's Grand Shop.
+This page contains all the project diagrams, organized by type. These diagrams illustrate the architecture, relationships, and workflows within David's Grand Shop.
 
 ---
 <details>
