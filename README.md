@@ -206,5 +206,5 @@ For a detailed view of all the diagrams, please visit the [Diagrams Page](diagra
 
 
 ### Outstanding Issues
-- No outstanding issues with the project.
+- CI/CD Pipeline issues with GitHub - Azure Web app user doesnt have correct admin status.
 
