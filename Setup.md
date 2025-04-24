@@ -107,3 +107,19 @@ VALUES ('Regular', 'User', 'Female', 25, 'California', 'Jackie@AoL.com', 'Jackie
 ### Live Access
 - You can also access the deployed version of this application at:
 https://capstoneproject20250422140909-fxf3hfdrcrg5eshr.canadacentral-01.azurewebsites.net/
+
+---
+
+## Project Navigation
+
+[Application Demo](Demo.md)
+
+[Project Approach](Approach.md)
+
+[Home](README.md)
+
+[Key Code Snippets & Implementation](Code_Snippets.md)
+
+[Project Diagrams & Architecture](diagrams.md)
+
+---
