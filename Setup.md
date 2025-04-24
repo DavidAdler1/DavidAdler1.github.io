@@ -106,4 +106,4 @@ VALUES ('Regular', 'User', 'Female', 25, 'California', 'Jackie@AoL.com', 'Jackie
 
 ### Live Access
 - You can also access the deployed version of this application at:
-[https://github.com/DavidAdler1/DavidsGrandShop](https://capstoneproject20250422140909-fxf3hfdrcrg5eshr.canadacentral-01.azurewebsites.net/)
+https://capstoneproject20250422140909-fxf3hfdrcrg5eshr.canadacentral-01.azurewebsites.net/
