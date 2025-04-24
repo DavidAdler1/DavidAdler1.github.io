@@ -193,10 +193,11 @@ For a detailed view of all the diagrams, please visit the [Diagrams Page](diagra
 - https://stackoverflow.com/questions/39860045/how-do-i-use-cookies-to-store-shopping-cart-content
 - https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements
 - https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
--  https://stackoverflow.com/questions/72875803/asp-net-core-identity-check-isadmin
--  https://learn.microsoft.com/en-us/azure/app-service/app-service-web-tutorial-dotnet-sqldatabase
--  https://learn.microsoft.com/en-us/aspnet/core/mvc/overview?view=aspnetcore-9.0&WT.mc_id=dotnet-35129-website
--  
+- https://stackoverflow.com/questions/72875803/asp-net-core-identity-check-isadmin
+- https://learn.microsoft.com/en-us/azure/app-service/app-service-web-tutorial-dotnet-sqldatabase
+- https://learn.microsoft.com/en-us/aspnet/core/mvc/overview?view=aspnetcore-9.0&WT.mc_id=dotnet-35129-website
+- https://www.datacamp.com/tutorial/azure-sql-database?
+- https://learn.microsoft.com/en-us/aspnet/core/fundamentals/app-state?view=aspnetcore-9.0
   
 
 
