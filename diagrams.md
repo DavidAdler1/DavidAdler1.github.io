@@ -108,3 +108,17 @@ This page contains all the project diagrams, organized by type. These diagrams i
 *ER Diagram - Database schema showing relationships between Users, Products, Orders, and OrderItems tables* 
 
 </details>
+
+---
+## Project Navigation
+
+[Home](README.md)
+
+[Application Demo](Demo.md)
+
+[Project Approach](Approach.md)
+
+[Setup & Installation Guide](Setup.md)
+
+[Key Code Snippets & Implementation](Code_Snippets.md)
+
