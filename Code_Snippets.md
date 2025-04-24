@@ -456,6 +456,18 @@ ProductModel uses data annotations to enforce validation rules and customize how
 
 </details>
 
+## Project Navigation
 
+[Home](README.md)
+
+[Application Demo](Demo.md)
+
+[Project Approach](Approach.md)
+
+[Setup & Installation Guide](Setup.md)
+
+[Project Diagrams & Architecture](diagrams.md)
+
+---
 
 
