@@ -112,11 +112,11 @@ https://capstoneproject20250422140909-fxf3hfdrcrg5eshr.canadacentral-01.azureweb
 
 ## Project Navigation
 
+[Home](README.md)
+
 [Application Demo](Demo.md)
 
 [Project Approach](Approach.md)
-
-[Home](README.md)
 
 [Key Code Snippets & Implementation](Code_Snippets.md)
 
