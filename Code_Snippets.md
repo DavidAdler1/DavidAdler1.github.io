@@ -468,6 +468,6 @@ ProductModel uses data annotations to enforce validation rules and customize how
 
 [Project Diagrams & Architecture](diagrams.md)
 
----
+
 
 
