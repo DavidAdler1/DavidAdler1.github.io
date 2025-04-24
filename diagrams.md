@@ -3,8 +3,8 @@
 This page contains all the project diagrams, organized by type. These diagrams illustrate the architecture, relationships, and workflows within David's Grand Shop.
 
 ---
-<details>
-<summary>Controller Diagrams</summary>
+
+## Controller Diagrams
 
 ![LoginController UML](Images/UML%20Diagrams/LoginControllerUML.png)  
 *LoginController - Manages user authentication, session creation, and login success/failure handling*  
@@ -27,12 +27,12 @@ This page contains all the project diagrams, organized by type. These diagrams i
 ![OrderController UML](Images/UML%20Diagrams/OCUML.png)  
 *OrderController - Processes checkout, creates orders, updates inventory, and displays order history*  
 
-</details>
+
 
 ---
 
-<details>
-<summary>Model Diagrams</summary>
+
+## Model Diagrams
 
 ![RegistrationModel UML](Images/UML%20Diagrams/RegistrationModelUML.png)  
 *RegistrationModel - Contains user registration data, including personal details and admin status*  
@@ -48,12 +48,12 @@ This page contains all the project diagrams, organized by type. These diagrams i
 
 ![OrderModel UML](Images/UML%20Diagrams/OMUML.png)  
 *OrderModel - Represents completed orders with user info, date, and list of items*  
-</details>
+
 
 ---
 
-<details>
-<summary>Service & DAO Diagrams</summary>
+
+## Service & DAO Diagrams
 
 ![OrderService UML](Images/UML%20Diagrams/OSUML.png)  
 *OrderService - Creates orders with transaction handling, inventory updates, and retrieves order history directly from the database*    
@@ -73,12 +73,12 @@ This page contains all the project diagrams, organized by type. These diagrams i
 ![CartService UML](Images/UML%20Diagrams/CSUML.png)  
 *CartService - Manages cart operations using cookie-based persistence with JSON serialization*  
 
-</details>
+
 
 ---
 
-<details>
-<summary>User Experience Diagrams</summary>
+
+## User Experience Diagrams
 
 ![User View Diagram](Images/View%20Diagrams/UserDiagram.png)  
 *User View - Shows customer journey from login to browsing, viewing their profile, cart management, and checkout*  
@@ -86,28 +86,28 @@ This page contains all the project diagrams, organized by type. These diagrams i
 ![Admin View Diagram](Images/View%20Diagrams/AdminViewDiagram.png)  
 *Admin View - Illustrates admin-specific interface for product and user management* 
 
-</details>
+
 
 ---
 
-<details>
-<summary>Architecture Diagram</summary>
+
+## Architecture Diagram
 
 ![Architecture Diagram](Images/Architecture%20Diagram/Architecture%20Diagram.png)   
 *Architecture Diagram - MVC pattern with controller, service, and DAO layers connected to SQL Server* 
 
-</details>
+
 
 
 ---
 
-<details>
-<summary>ER Diagram</summary>
+
+## ER Diagram
 
 ![ER Diagram](Images/ER%20Diagram/ER%20Diagram.png)  
 *ER Diagram - Database schema showing relationships between Users, Products, Orders, and OrderItems tables* 
 
-</details>
+
 
 ---
 ## Project Navigation
