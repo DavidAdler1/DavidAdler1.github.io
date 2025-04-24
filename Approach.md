@@ -136,3 +136,16 @@ Future Enhancements
 - Automated Testing – Add more tests to keep the app stable during future updates.
 
 This project gave me valuable experience in full-stack web development using ASP.NET MVC. It reinforced how important good architecture is for building apps that are easy to maintain and secure. Working through challenges like session handling and database transactions helped me grow as a developer and will help in future projects.
+
+## Project Navigation
+
+[Home Page](README.md)
+
+[Application Demo](Demo.md)
+
+[Setup & Installation Guide](Setup.md)
+
+[Key Code Snippets & Implementation](Code_Snippets.md)
+
+[Project Diagrams & Architecture](diagrams.md)
+
