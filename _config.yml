@@ -1,16 +1,3 @@
 title: David's Grand Shop - Portfolio
 Description: Capstone project showcasing ASP.NET MVC development skills
-
-## Project Navigation
-
-[Application Demo](Demo.md)
-
-[Project Approach](Approach.md)
-
-[Setup & Installation Guide](Setup.md)
-
-[Key Code Snippets & Implementation](Code_Snippets.md)
-
-[Project Diagrams & Architecture](diagrams.md)
-
 theme: jekyll-theme-minimal
