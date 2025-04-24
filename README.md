@@ -119,7 +119,7 @@ Reliability
 ---
   
 ### Cloud Deployment
-- Yes, my project is deployed to the cloud using AWS.
+- Yes, my project is deployed to the cloud using Azure.
 
 ---
   
