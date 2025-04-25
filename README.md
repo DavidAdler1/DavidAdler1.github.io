@@ -203,23 +203,51 @@ For a detailed view of all the diagrams, please visit the [Diagrams Page](diagra
   
 ---
 
-### Resources Used: 
-- ASP.NET MVC documentation, Stack Overflow, and  GCU Course C#3, Jira, GitHub, Postman.
-- https://stackoverflow.com/questions/39860045/how-do-i-use-cookies-to-store-shopping-cart-content
-- https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements
-- https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
-- https://stackoverflow.com/questions/72875803/asp-net-core-identity-check-isadmin
-- https://learn.microsoft.com/en-us/azure/app-service/app-service-web-tutorial-dotnet-sqldatabase
-- https://learn.microsoft.com/en-us/aspnet/core/mvc/overview?view=aspnetcore-9.0&WT.mc_id=dotnet-35129-website
-- https://www.datacamp.com/tutorial/azure-sql-database?
-- https://learn.microsoft.com/en-us/aspnet/core/fundamentals/app-state?view=aspnetcore-9.0
-- https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
-- https://www.markdownguide.org/tools/github-pages/#:~:text=Just%20create%20a%20new%20repository,the%20Markdown%20support%20is%20excellent.
-- http://jekyllthemes.org/
-- https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site
-  
-
-
 ### Outstanding Issues
 - CI/CD Pipeline issues with GitHub - Azure Web app user doesnt have correct admin status.
+
+---
+
+### Resources Used: 
+How do I use cookies to store shopping cart content?. Stack Overflow. (2016, October). https://stackoverflow.com/questions/39860045/how-do-i-use-cookies-to-store-shopping-cart-content 
+
+MozDevNet. (2025, April 11). HTML elements reference - HTML: Hypertext markup language: MDN. MDN Web Docs. https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements 
+
+MozDevNet. (2025a, March 24). CSS reference - CSS: Cascading style sheets: MDN. MDN Web Docs. https://developer.mozilla.org/en-US/docs/Web/CSS/Reference 
+
+Egeo, & egeoegeo                      32333 silver badges2525 bronze badges. (2022, July 5). ASP.NET core identity check isadmin. Stack Overflow. https://stackoverflow.com/questions/72875803/asp-net-core-identity-check-isadmin 
+
+Cephalin. (2022, September 21). Tutorial: ASP.NET APP with Azure SQL database - azure app service. Tutorial: ASP.NET app with Azure SQL Database - Azure App Service | Microsoft Learn. https://learn.microsoft.com/en-us/azure/app-service/app-service-web-tutorial-dotnet-sqldatabase 
+
+Ardalis. (2024a, June 17). Overview of ASP.NET core MVC. Microsoft Learn. https://learn.microsoft.com/en-us/aspnet/core/mvc/overview?view=aspnetcore-9.0&WT.mc_id=dotnet-35129-website 
+
+Rummens, A. (2024, August 20). Azure SQL database: STEP-by-step setup and Management. DataCamp. https://www.datacamp.com/tutorial/azure-sql-database 
+
+Tdykstra. (2024, September 18). Session in ASP.NET Core. Session in ASP.NET Core | Microsoft Learn. https://learn.microsoft.com/en-us/aspnet/core/fundamentals/app-state?view=aspnetcore-9.0 
+
+ 
+
+GitHub. (n.d.). Adding a theme to your GitHub Pages site using jekyll. GitHub Docs. https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll 
+
+GitHub Pages. Markdown Guide. (n.d.). https://www.markdownguide.org/tools/github-pages/#:~:text=Just%20create%20a%20new%20repository,the%20Markdown%20support%20is%20excellent 
+
+Jekyll themes. Jekyll Themes. (n.d.). http://jekyllthemes.org/ 
+
+GitHub. (n.d.-b). Quickstart for GitHub Pages. GitHub Docs. https://docs.github.com/en/pages/quickstart 
+
+ 
+
+Jamesmontemagno, erjain, Par, J., & Mairaw. (2022, April 12). Logical architecture versus physical architecture - .NET. .NET | Microsoft Learn. https://learn.microsoft.com/en-us/dotnet/architecture/microservices/architect-microservice-container-applications/logical-versus-physical-architecture 
+
+ 
+SamMonoRT, AndriySvyryd, Anderson, R., bricelam, ajcvickers, smitpatel, roji, seekingtheoptimal, lajones, djcarter85, NikitaKrasnovSW, divega, mairaw, tdykstra, spottedmahn, & rowanmiller. (2024, November 12). Connection strings - EF core. EF Core | Microsoft Learn. https://learn.microsoft.com/en-us/ef/core/miscellaneous/connection-strings?tabs=dotnet-core-cli 
+
+Banach, Z. (2024, December 16). How to prevent CSRF attacks by using anti-CSRF tokens. Invicti. https://www.invicti.com/blog/web-security/protecting-website-using-anti-csrf-token/ 
+
+Rick-Anderson, timdeschryver, guardrex, tdykstra, GitHubPang, serpent5, v-haiboz, tryonelove, damienbod, nschonni, pranavkm, scottaddie, JvandeKraats, gyuwon, isaac2004, v-anpasi, rhires, & danroth27. (2024, October 14). Role-based authorization in ASP.NET Core. Microsoft Learn. https://learn.microsoft.com/en-us/aspnet/core/security/authorization/roles?view=aspnetcore-9.0 
+
+Shah, N. (2025, February 26). Performance optimization techniques for ASP.NET Core Applications. Techcronus Tech Blog & Insights. https://www.techcronus.com/blog/performance-optimization-techniques-for-asp-net-core-applications/  
+
+ions/ 
+  
 
