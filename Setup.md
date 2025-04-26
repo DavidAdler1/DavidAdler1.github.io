@@ -24,11 +24,17 @@ Make sure the following are installed on your machine:
 
 
 ### Open the solution in Visual Studio 2022
-- Update the connection string in appsettings.json to match your SQL Server:
+- Update the connection string in serviceDependencies.json to match your SQL Server:
 
 ```
---- json"ConnectionStrings": {
-  "DefaultConnection": "Server=(localdb)\\MSSQLLocalDB;Database=Capstone;Trusted_Connection=True;MultipleActiveResultSets=true"
+//For local Development in localdb
+{
+    "dependencies": {
+        "mssql1": {
+            "type": "mssql",
+            "connectionString": "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=Capstone;Integrated Security=True;Connect Timeout=30;Encrypt=False"
+        }
+    }
 }
 ```
 
